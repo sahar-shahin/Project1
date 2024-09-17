@@ -1,0 +1,986 @@
+/* 2- GENERAL STYLES */
+
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.container {
+    width:80%;
+    margin: auto;
+    }
+
+.a{
+    text-decoration: none;
+}
+
+body{
+    height: 4000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+    /* HEADER */
+.header{
+    width: 100%;
+    height: 60PX;
+    background-color:rgb(247, 247, 247);
+    overflow: auto;
+    position: fixed;
+    z-index: 100;
+    opacity: .9;
+    
+}
+.h-logo{
+        width: 180;
+        height: 50;
+        margin-left: 200px;
+        float: left;
+        margin-top: 4;
+}
+    
+.h-ul{
+    list-style: none;
+    float: left; }
+
+.h-ul li{
+    display: inline-block;
+    margin-top: 20;
+} 
+.h-ul li a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+    margin-right: 25px;
+    letter-spacing: 2px;
+}
+.h-ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+.H{
+    margin-left: 120px;
+}
+.h-btn{
+    width: 90;
+    height: 30;
+    color: aliceblue;
+    background-color: red;
+    border: 0;
+    border-radius: 15PX;
+    float: right;
+    margin-top: 15;
+    margin-right: 230;
+}
+.h-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+    /* ////////////// Main /////////////////*/
+
+.main{
+    width: 100%;
+    height: 100vh;  
+    background-image: url(../Img/casino-cards-yellow-background_23-2148952384.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    font-size: larger;
+}
+
+.m-text{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50% );
+    text-align: center;
+}
+.m-t{
+    font-size: 40;
+    text-transform: uppercase;
+
+}
+.m-p{
+    margin-top: 10;
+    word-spacing: 2;
+    letter-spacing: 1;
+}
+.m-btn{
+    padding: 10px 25px ;
+    margin-top: 30;
+    font-size: 20;
+    text-transform: capitalize;
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: red;
+}
+
+.btn2{
+    color: red;
+    background-color: white;
+    margin-left: 10;
+}
+.m-btn:hover{
+    opacity: .7;
+    cursor: pointer;
+}
+
+    /* ////////////// welcome /////////////////*/
+
+.W-H1{
+    text-align: center;
+    Padding-top: 50;
+    font-size: 38;
+    padding-bottom: 30;
+    text-transform: uppercase;
+}
+
+.Welcome{
+ margin: auto;
+}
+
+.w-line{
+    width: 100;
+    height: 4;
+    background-color: red;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 60px;
+
+}
+
+
+.Wlc-divs{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+
+}
+
+    /* ////////////// w1 /////////////////*/
+.W1{
+    width: 350;
+    height: auto;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 15px;
+    padding: 15;
+    text-align: center;
+    float: left;
+    position: relative;
+
+}
+.w::after{
+    position: absolute;
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(255, 255, 96);
+    Opacity: 1;
+    
+}
+
+.w:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    Opacity: .4;
+    transition: 1s;
+    z-index: -1;
+
+}
+
+.w:hover .w-h2{
+    color: red;
+    transition: 1s;
+
+}
+
+
+.w-h2{
+    padding-bottom: 30;
+}
+.w1 i{
+    font-size: 30;
+    color: red;
+    padding-bottom: 15;
+}
+.w-p{
+    margin-bottom: 10;
+}
+.w1 a{
+    text-decoration: none;
+    font-size: 16;
+}    
+
+/* ////////////// w2 /////////////////*/
+
+.W2{
+    width: 350;
+    height: auto;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 15px;
+    padding: 15;
+    text-align: center;
+    float: left;
+    margin: 0px 33px;
+    position: relative;
+
+
+}
+.w2 h2{
+    padding-bottom: 30;
+}
+.w2 i{
+    font-size: 30;
+    color: red;
+    padding-bottom: 15;
+}
+
+.w2 a{
+    text-decoration: none;
+    font-size: 16;
+}    
+
+/* ////////////// w3 /////////////////*/
+
+.W3{
+    width: 350;
+    height: auto;
+    border-style: solid;
+    border-width: 1;
+    border-radius: 15px;
+    padding: 15;
+    text-align: center;
+    float: left;
+    position: relative;
+
+}
+.w3 h2{
+    padding-bottom: 30;
+}
+.w3 i{
+    font-size: 30;
+    color: red;
+    padding-bottom: 15;
+}
+
+.w3 a{
+    text-decoration: none;
+    font-size: 16;
+}
+
+/* ////////////// feature  /////////////////*/
+/* شايل كله */
+.Feature{
+        height: 1000;
+        width: 100%;
+        background-color: hsl(50, 100%, 77%);
+        overflow: auto;
+}
+
+.Ft-H1{
+        text-align: center;
+        font-size: 38;
+        padding: 50px 0px;
+        text-transform: uppercase;
+}
+   
+.Ft-line{
+        width: 100;
+        height: 4;
+        background-color: red;
+        margin: auto;
+        margin-top: -40px;
+        margin-bottom: 30px;
+    
+}
+  /* ////////////// container  /////////////////*/
+/* شايل 3  */
+.container{
+    width: 80%;
+    overflow: auto;
+}
+
+
+.img-feature{
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: auto;
+
+}
+/* شايل الديف */
+.feature-item{
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px;
+}
+/* شايل المخفي */
+.feature-layer{
+    height: 350px;
+    float: left;
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+.feature-item.F2{
+    margin: 0 5%;
+    float: left;
+}
+
+.feature-item .feature-layer{
+    position: absolute;
+    margin: auto;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+
+}
+
+.feature-item:hover .feature-layer{
+    opacity:1;
+    visibility: visible;
+}
+
+.feature-info{
+    margin-top: 100px;
+
+}
+
+.Category{
+    color: aliceblue;
+}
+.feature-content-p{
+    line-height: 40px;
+    color: hsl(50, 100%, 77%);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.feature-info a i{
+    color: #000000;
+    background-color: hsl(50, 100%, 77%);
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+ /* ////////////// Offer Section /////////////////*/
+
+ .offer-divs{
+    width: 80%;
+    height: 650px;
+    margin: auto;
+ }
+
+.offer1{
+    width: 30%;
+    height: 270px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+    margin: 20px 0;
+}
+
+.offer-info{
+    padding: 20PX;
+
+}
+
+.offer-info i{
+    font-size: 30px;
+    color: red;
+}
+
+.offer-h2{
+    display: inline;
+
+}
+
+.offer-P{
+    margin-left: 55px;
+    margin-top: 15px;
+    color: rgb(135, 135, 135);
+}
+
+.offer1::after{
+    position: absolute;
+    content:"";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: hsl(50, 100%, 77%);
+    opacity: 1; 
+}
+
+.offer1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .4; 
+    transition: 1s;
+    z-index: -1;
+}
+
+.offer1:hover .offer-h2{
+    color: red;
+}
+
+.offer1.O2{
+    margin: 20px 5%;
+}
+
+ /* ////////////// Why choose us /////////////////*/
+
+.why{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+}
+
+
+.why-divs{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+.h2{
+    text-align: left;
+}
+.why1{
+    width: 50%;
+    padding-right: 20px;
+    float: left;
+}
+
+.why-p{
+    color: rgb(108, 108, 108);
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.why-list li{
+    list-style: none;
+    font-size: 18px
+}
+
+.fa-solid{
+    color: red;
+    font-size: 20px;
+    margin: 10px ;
+    text-align: center;
+}
+
+
+.why-H1{
+    text-align: left;
+    font-size: 38;
+    padding: 50px 0px;
+    text-transform: uppercase;
+}
+
+.why-line{
+    width: 100;
+    height: 4;
+    background-color: red;
+    margin-top: -40px;
+    margin-bottom: 30px;
+
+}
+
+ /* ////////////// Why2 /////////////////*/
+
+.why2{
+    width: 50%;
+    float: left;
+}
+
+.why-img{
+    padding: 20px;
+    width: 450px;
+    margin-left: 80px;
+}
+
+.bullets{
+    text-align: center;
+
+}
+.bullets li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: hsl(0, 0%, 20%);
+    margin: -20px 0px 10px 10px;
+    border-radius: 50%;
+}
+
+.bullets .active{
+    background-color: red;
+}
+
+.bullets li:hover{
+    background-color: red;
+}
+
+ /* ////////////// stacitics /////////////////*/
+.stacitics{
+    width: 100%;
+    height: 300px;
+    background-image: url(../Img/casino-cards-yellow-background_23-2148952384.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    overflow: auto;
+    
+}
+
+.overlay-2{
+    width: 100%;
+    height: 300PX;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+
+}
+
+.stac-divs{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 90PX;
+    text-align: center;
+}
+
+ /* ////////////// Stas1 /////////////////*/
+ .stas1{
+    width: 25%;
+    float: left;
+ }
+ .stas1 i{
+    font-size: 50px;
+    color: aliceblue;
+
+ }
+
+ .num{
+    font-size: 30px;
+
+    color: hsl(50, 100%, 77%);
+    font-weight: bold;
+ }
+
+ .text{
+    color: aliceblue;
+ }
+
+ /* ////////////// Price /////////////////*/
+
+.price{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(234, 234, 234);
+
+}
+
+.W-H1.p{
+    padding-top: 100px;
+}
+.price-divs{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.price1{
+    width: 30%;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    border-color: #797979;
+    z-index: 1;
+    float: left;
+}
+
+.circle{
+    width: 140px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+    border-color: red;
+}
+
+.Price-P2{
+    font-size: 50px;
+}
+
+.Price-h3{
+    font-size: 15px;
+    color: rgb(113, 113, 113);
+    line-height: 25px;
+}
+
+.Price-btn{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    margin-top: 20px ;
+    border-color: red;
+}
+
+.price1::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: hsl(50, 100%, 77%);
+    opacity: 1; 
+}
+
+.price1:hover::after{
+        width: 100%;
+        height: 100%;
+
+        opacity: .4;
+        transition: .5s;
+
+        z-index:  -1;
+ }
+
+ .price1.p2{
+    margin: 0px 5%;
+}
+
+ /* ////////////// review /////////////////*/
+
+.review{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, .4);
+    background-image: url(../Img/casino-cards-yellow-background_23-2148952384.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.review-over{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+}
+
+.review-items{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.review1{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.review1 img{
+    position: absolute;
+    border-radius: 50%;
+    margin-top: -20px;
+
+}
+
+.review-info{
+    margin-left: 120px;
+}
+.review-p{
+    display: block;
+    color: aliceblue;
+    margin: 50px 0 10 10;
+    text-transform: capitalize;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.review-h2{
+    color: #ffffff;
+}
+
+.review-span{
+    color: hsl(50, 100%, 77%);
+}
+
+
+ /* ////////////// review /////////////////*/
+
+ .team{
+    width: 100%;
+    height: 600px;
+ }
+
+ .team-divs{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+ }
+
+ .team1{
+    width: 30%;
+    height: 300px;
+    padding: 2%;
+    background-color: #c0c0c0;
+    position: relative;
+    float: left;
+
+ }
+
+
+ .team-img{
+    position: relative;
+
+
+ }
+
+.team-layer1 ul{
+    list-style: none;
+ }
+
+ .team-icons a i {
+    display: block;
+    margin-left: auto ;
+    width: 40px;
+    height: 40px;
+    background-color: red ;
+    line-height: 40px;
+ }
+
+ .team-icons{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+ }
+
+ .team-icons:hover{
+    opacity: 1;
+ }
+
+ .team-info{
+    margin-top: 10px;
+
+ }
+
+ .team-info p{
+    margin-top: 5px;
+    text-transform: uppercase;
+ }
+
+ .team1::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, .7);
+    opacity: 1;
+
+
+ }
+
+ .team1:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    transition: 1s;
+
+    z-index: 1;
+ }
+
+ .team1 h2{
+    margin-top: 10px;
+
+ }
+
+ .team1:hover h2{
+    color: rgb(255, 0, 0);
+ }
+
+ .team1 p{
+    margin-top: 5px;
+    text-transform: uppercase;
+
+ }
+
+ .team1:hover p{
+    color: hsl(0, 0%, 100%);
+ }
+
+.center{
+    margin: 0 5%;
+}
+ /* //////////////News/////////////////*/
+
+ .news{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+ }
+
+ .news-item{
+    width: 30%;
+    height: auto;
+    margin-right: auto;
+    float: left;
+    position: relative;
+    padding: 0 18px;
+
+
+ }
+ .news-item img{
+     margin-bottom: 10px;
+ }
+
+ .news-comment i{
+    color: red;
+    font-size: 10px;
+
+ }
+
+ .news-comment span {
+    margin-left: -10px;
+ }
+
+ .news-comment .name {
+    margin-left: 3px;
+}
+
+.news-item h2{
+    margin: 15px 0;
+}
+
+.news-item p{
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+.news-cta{
+    font-size: 18px;
+    color: red;
+    padding-bottom: 20px;
+}
+
+.cen{
+    margin: 0px 5%;
+}
+
+.news-item::after{
+    position: absolute;
+    content: "";
+
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, .4);
+    opacity: 1;
+}
+
+.news-item:hover::after{
+    width: 100%;
+    height: 100%;
+
+    opacity: .4;
+    transition: 1s;
+}
+
+
+ /* ////////////// footer/////////////////*/
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #202020;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.footer-item{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-item img{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.social-media i{
+    width: 60px;
+    height: 60px;
+    padding: 13;
+    font-size: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    color: white;
+    margin: 0 2px;
+}
+
+.social-media i:hover{
+    background-color: rgb(103, 0, 0);
+}
+
+.social-media p{
+    margin-top: 15px;
+    color: #797979;
+}
+
